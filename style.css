@@ -1,0 +1,437 @@
+*{
+padding: 0%;
+box-sizing: border-box ;
+font-family: 'Open Sans', sans-serif;
+
+}
+ header{
+width: 95%;
+height: 90vh;
+position: relative;
+
+}
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+height: 70px;
+
+}
+.logo{
+font-size: 30px;
+font-weight: bold;
+color: lightblue;
+
+}
+.up-menu{
+  
+    display: flex;
+    border-bottom: 1px solid grey;   
+
+}
+.up-menu a{
+
+text-decoration: none;
+color: grey;
+padding: 5px 10px;
+}
+.fa-phone{
+
+color: skyblue;
+float: left;
+
+
+}
+.up-left{
+    border-right: solid 1px grey;
+    padding:10px;
+    margin-right:20em;
+}
+.up-right{
+  float:right;
+  
+
+}
+.fq{
+
+   background-color:none;
+   border-left:1px solid grey;
+}
+.fq a{
+
+    float: right;
+}
+.menu a{
+text-decoration:none;
+font-size: 20px;
+color:grey;
+font-weight: bold;
+padding: 10px 20px;
+
+}
+.container{
+display:flex ;
+justify-content: center;
+align-items:center;
+flex-wrap: wrap;
+
+}
+.center img{
+width:90%;
+margin:40px;
+
+}
+.left{
+    max-width: 400px;
+   position:absolute;
+   transform: translate(50%,-150%);
+    color: White;
+  
+}
+.btn button{
+    padding: 10px ;
+    background-color:lightblue;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.btn button:hover{
+    background-color: lightcoral;
+
+}
+#news{
+padding: 20px 2em;
+color: grey;
+
+
+}
+.newstext h2{
+    text-align: center;
+    margin-top: 10em;
+}
+.newstext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.newstext p{
+padding: 1px 12px;
+
+}
+.flexcontainer{
+display: flex;
+background-color: white;
+justify-content: space-evenly;
+flex-wrap: wrap;
+text-align: center;
+
+}
+.card{
+background-color: white;
+padding: 10px;
+border-radius: 5px;
+
+border: solid 1px lightgray;
+color:grey
+}
+
+#projects{
+    padding: 20px 2em;
+    color: Grey;
+    
+    
+    }
+    .projectstext h2{
+        text-align: center;
+    }
+    .projectstext{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .projectstext p{
+    padding: 1px 12px;
+    
+    }
+
+
+
+
+
+.recentprojects{
+
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
+
+}
+.projmenu{
+padding: 10px;;
+
+
+
+}
+
+.projmenu a{
+text-decoration: none;
+color: grey;
+}
+a.active{
+
+    color: blue;
+}
+
+.projectflexcontainer{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    }
+.projectcard{
+    
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px lightgray;
+    color:grey
+    }
+    
+.line-break {
+        background-color: aqua;
+        width: 100%;
+      }
+
+#reviews{
+        padding: 20px 2em;
+       
+        color: Grey;
+        
+        
+        }
+
+
+.revflexcontainer{
+/*
+background-image: url(./images/xn3.png);
+background-repeat: no-repeat;
+background-size: 100%;
+background-position-y: center;
+*/
+background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(137, 196, 241, 0.8)), url("./images/xn3.png");
+    background: linear-gradient(rgba(29, 38, 113, 0.6), rgba(137, 196, 244, 0.6)), url("./images/xn3.png"); /* The least supported option. */
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+    
+}
+
+.item{
+    
+    padding: 10px;
+    margin: 150px 50px 150px 50px;
+    background-color: white;
+    
+}
+.userimg{
+
+width: 40px;
+height: 40px;
+margin: 10px;
+margin-right: 20px;
+float: left;
+}
+.after{
+background-color: tomato;
+
+
+
+
+}
+.item p{
+display: block;
+
+}
+.item h4{
+   text-align: center;
+
+}
+.item h5{
+text-align: center;
+
+}
+
+/*footer{
+/*background-color: rgba(36, 37, 42, 1);
+display: flex;
+min-height: 100vh;
+flex-direction: column; 
+}*/
+.container {
+    flex: 1;
+    
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer {
+    background-color: #555;
+    color: #bbb;
+    line-height: 1.5;
+}
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+a:hover {
+    text-decoration: underline;
+}
+.ft-title {
+    color: #fff;
+    font-family: ’Merriweather’, serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+}
+
+.ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem /*200px*/;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+input[type="email"] {
+    border:0;
+    width: 80%;
+    border-radius: 10em;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+}
+input[type="submit"] {
+    background-color: #00d188;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10em;
+    border: 10em;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+}
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid; 
+    padding-top: 1.25rem;
+    
+}
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.insta-img{
+
+width:50px;
+height: 50px;
+
+}
+#mobilenav{
+
+    display:none;
+    color: lightblue;
+}
+.mobilenavcont{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+.bbars{
+
+    margin-left: 7em;
+}
+
+
+
+
+
+
+
+
+
+/*Media Queries here*/
+@media screen and (max-width: 600px) {
+nav{
+    display: none;
+
+}
+#mobilenav{
+
+    display:inline;
+}
+header{
+    height: 30vh;
+}
+.left h1{
+    font-size: 15px;
+}
+#card2{
+    display: none;
+}
+.up-left{
+       
+    margin-right:10em;
+}
+}
+@media only screen and (max-width: 768px)
+   {
+    .up-left{
+       
+        margin-right:10em;
+    }
+
+   }
+  
+  @media only screen and (min-width: 477px /*477px*/) {
+    .ft-main {
+        justify-content: space-around;
+    }
+
+}
+@media only screen and (min-width: 1240px /*1240px*/ ) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 320px) {
+
+.ft-main-item{
+
+
+    font-size: small;
+}
+
+
+}
