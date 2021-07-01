@@ -100,6 +100,15 @@ margin:40px;
     background-color: lightcoral;
 
 }
+
+#activelink{
+color:lightblue;
+
+
+}
+.menu a:hover{
+    color: lightblue;
+}
 #news{
 padding: 20px 2em;
 color: grey;
@@ -137,6 +146,7 @@ border-radius: 5px;
 border: solid 1px lightgray;
 color:grey
 }
+
 
 #projects{
     padding: 20px 2em;
@@ -413,6 +423,15 @@ header{
     }
 
    }
+   @media only screen and (min-width: 1210px)
+   {
+    .up-left{
+       
+        margin-right:45em;
+       
+    }
+
+   }
   
   @media only screen and (min-width: 477px /*477px*/) {
     .ft-main {
@@ -435,12 +454,3 @@ header{
 
 
 }
-@media only screen and (min-width: 1180px)
-   {
-    .up-left{
-       
-        margin-right:50em;
-       
-    }
-
-   }
